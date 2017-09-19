@@ -1,0 +1,90 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/skipversiondemo:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        skipversiondemo:content: Content
+        skipversiondemo:date: Start date
+        skipversiondemo:enddate: End date
+        skipversiondemo:image: Image
+        skipversiondemo:introduction: Introduction
+        skipversiondemo:location: Location
+        skipversiondemo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Evenement
+        skipversiondemo:content: Inhoud
+        skipversiondemo:date: Startdatum
+        skipversiondemo:enddate: Einddatum
+        skipversiondemo:image: Afbeelding
+        skipversiondemo:introduction: Introductie
+        skipversiondemo:location: Locatie
+        skipversiondemo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Événement
+        skipversiondemo:content: Contenu
+        skipversiondemo:date: Date de début
+        skipversiondemo:enddate: Date de fin
+        skipversiondemo:image: Image
+        skipversiondemo:introduction: Introduction
+        skipversiondemo:location: Lieu
+        skipversiondemo:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        skipversiondemo:content: Inhalt
+        skipversiondemo:date: Startdatum
+        skipversiondemo:enddate: Enddatum
+        skipversiondemo:image: Abbildung
+        skipversiondemo:introduction: Einführung
+        skipversiondemo:location: Standort
+        skipversiondemo:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/skipversiondemo:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        skipversiondemo:author: Author
+        skipversiondemo:content: Content
+        skipversiondemo:date: Date
+        skipversiondemo:image: Image
+        skipversiondemo:introduction: Introduction
+        skipversiondemo:location: Location
+        skipversiondemo:source: Source
+        skipversiondemo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        skipversiondemo:author: Auteur
+        skipversiondemo:content: Inhoud
+        skipversiondemo:date: Datum
+        skipversiondemo:image: Afbeelding
+        skipversiondemo:introduction: Introductie
+        skipversiondemo:location: Locatie
+        skipversiondemo:source: Bron
+        skipversiondemo:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        skipversiondemo:author: Verfasser
+        skipversiondemo:content: Inhalt
+        skipversiondemo:date: Datum
+        skipversiondemo:image: Abbildung
+        skipversiondemo:introduction: Einführung
+        skipversiondemo:location: Standort
+        skipversiondemo:source: Quelle
+        skipversiondemo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        skipversiondemo:author: Auteur
+        skipversiondemo:content: Contenu
+        skipversiondemo:date: Date
+        skipversiondemo:image: Image
+        skipversiondemo:introduction: Introduction
+        skipversiondemo:location: Lieu
+        skipversiondemo:source: Source
+        skipversiondemo:title: Titre

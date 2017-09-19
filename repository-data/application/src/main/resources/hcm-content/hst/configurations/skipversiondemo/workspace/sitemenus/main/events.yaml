@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/skipversiondemo/hst:workspace/hst:sitemenus/main/events:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: 8b174e0f-d7b2-4961-999f-52cba5c5b9bf
+  hst:referencesitemapitem: events

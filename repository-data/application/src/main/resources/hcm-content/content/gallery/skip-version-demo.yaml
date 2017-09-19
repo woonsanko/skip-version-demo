@@ -1,7 +1,7 @@
 /content/gallery/skipversiondemo:
   jcr:primaryType: hippogallery:stdImageGallery
-  jcr:mixinTypes: ['mix:referenceable', 'hippo:named']
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 05a79fc1-79d3-491f-92ba-9ed6bd0fcda7
+  hippo:name: Skip Version Demo Hippo Project
   hippostd:foldertype: [new-image-folder]
   hippostd:gallerytype: ['hippogallery:imageset']
-  hippo:name: Skip Version Demo Hippo Project
-

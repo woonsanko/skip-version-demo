@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/skipversiondemo/hst:workspace/hst:containers/eventspage/main/content:
+  jcr:primaryType: hst:containeritemcomponent
+  jcr:uuid: 9cefa734-8bd2-4152-8858-2670e163a765
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+  hst:template: eventspage-main
+  hst:xtype: hst.item

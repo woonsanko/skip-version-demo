@@ -1,7 +1,9 @@
 /content/documents/skipversiondemo:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['mix:referenceable', 'hippotranslation:translated', 'hippo:named']
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 5e916b33-9209-426e-b901-74352bca6bb1
+  hippo:name: Skip Version Demo Hippo Project
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
   hippotranslation:locale: en
-  hippo:name: Skip Version Demo Hippo Project

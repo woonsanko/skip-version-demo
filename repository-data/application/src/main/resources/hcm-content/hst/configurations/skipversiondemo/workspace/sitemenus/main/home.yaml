@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/skipversiondemo/hst:workspace/hst:sitemenus/main/home:
+  .meta:order-before: events
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: 76e01fbd-b417-4021-8aff-0fffedcf8a4d
+  hst:referencesitemapitem: root

@@ -1,0 +1,4 @@
+/hst:hst/hst:configurations/skipversiondemo/hst:workspace/hst:sitemenus/main/news:
+  jcr:primaryType: hst:sitemenuitem
+  jcr:uuid: 494f6cfb-fd7f-4d7c-adff-c0ffe9e314a3
+  hst:referencesitemapitem: news
