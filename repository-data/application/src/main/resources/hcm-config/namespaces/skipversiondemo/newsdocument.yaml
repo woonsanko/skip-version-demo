@@ -87,7 +87,9 @@ definitions:
           jcr:primaryType: skipversiondemo:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 4790b169-8515-4053-a2e0-53333d0ae2f2
-          hippo:related___pathreference: []
+          hippo:related___pathreference:
+            type: double
+            value: []
           hippostd:holder: holder
           hippostd:state: draft
           hippostdpubwf:createdBy: ''

@@ -1,0 +1,110 @@
+/content/documents/skipversiondemo/products:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 5715aa1c-9a9b-414d-8560-3747bed4c5c6
+  hippo:name: Products
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: c9e17a02-91da-42c0-8c6b-87713f2a6343
+  hippotranslation:locale: en
+  /artifact-drawer-bell:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 993b9f9d-37e2-45b4-8aa6-1fe7b3dfdae7
+    hippo:name: Artifact Drawer Bell
+    /artifact-drawer-bell[1]:
+      jcr:primaryType: skipversiondemo:Product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f8fdcfaf-4a23-4d05-907d-805840562a3a
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModificationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: dc022716-f289-4c83-bc3a-aa717ee0f4d9
+      hippotranslation:locale: en
+      skipversiondemo:description: <p>Cabinet hardware, Artifact Drawer Bell</p>
+      skipversiondemo:name: Artifact Drawer Bell
+      skipversiondemo:skus: ['101', '901']
+    /artifact-drawer-bell[2]:
+      jcr:primaryType: skipversiondemo:Product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable', 'skipversiondemo:skipversioning']
+      jcr:uuid: 120ba90c-3b28-4563-8810-487341e4ada2
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModificationDate: 2017-09-19T16:45:33.665-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: dc022716-f289-4c83-bc3a-aa717ee0f4d9
+      hippotranslation:locale: en
+      skipversiondemo:description: <p>Cabinet hardware, Artifact Drawer Bell</p>
+      skipversiondemo:name: Artifact Drawer Bell
+      skipversiondemo:skus: ['101', '901']
+    /artifact-drawer-bell[3]:
+      jcr:primaryType: skipversiondemo:Product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dec380b1-3cb1-4454-bec9-56bbc3a5b5f0
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModificationDate: 2017-09-19T16:45:33.665-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-19T16:45:40.509-04:00
+      hippotranslation:id: dc022716-f289-4c83-bc3a-aa717ee0f4d9
+      hippotranslation:locale: en
+      skipversiondemo:description: <p>Cabinet hardware, Artifact Drawer Bell</p>
+      skipversiondemo:name: Artifact Drawer Bell
+      skipversiondemo:skus: ['101', '901']
+  /porto-top-mount-bar-sink:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 0df0f2e2-9113-47ab-871c-ada81244ac9b
+    hippo:name: Porto top mount bar sink
+    /porto-top-mount-bar-sink[1]:
+      jcr:primaryType: skipversiondemo:Product
+      jcr:mixinTypes: ['mix:versionable', 'skipversiondemo:skipversioning']
+      jcr:uuid: ad2a6996-cd23-4e24-96b4-e6a3f704752f
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModificationDate: 2017-09-19T16:47:04.821-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 876342dd-469d-4525-a685-3f53d0871872
+      hippotranslation:locale: en
+      skipversiondemo:description: <p>Bar sinks, Porto top mount bar sink</p>
+      skipversiondemo:name: Porto top mount bar sink
+      skipversiondemo:skus: ['102', '902']
+    /porto-top-mount-bar-sink[2]:
+      jcr:primaryType: skipversiondemo:Product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ad2e687e-c47f-44ac-97ac-2be5f3d746eb
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModificationDate: 2017-09-19T16:46:42.490-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 876342dd-469d-4525-a685-3f53d0871872
+      hippotranslation:locale: en
+      skipversiondemo:description: <p>Bar sinks, Porto top mount bar sink</p>
+      skipversiondemo:name: Porto top mount bar sink
+      skipversiondemo:skus: ['102', '902']
+    /porto-top-mount-bar-sink[3]:
+      jcr:primaryType: skipversiondemo:Product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: dc4a60a3-d93c-4a3c-be81-fe144f8f5216
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2017-09-19T16:44:41.064-04:00
+      hippostdpubwf:lastModificationDate: 2017-09-19T16:47:04.821-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2017-09-19T16:47:07.358-04:00
+      hippotranslation:id: 876342dd-469d-4525-a685-3f53d0871872
+      hippotranslation:locale: en
+      skipversiondemo:description: <p>Bar sinks, Porto top mount bar sink</p>
+      skipversiondemo:name: Porto top mount bar sink
+      skipversiondemo:skus: ['102', '902']

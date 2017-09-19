@@ -7,9 +7,15 @@
 [skipversiondemo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[skipversiondemo:Product] > hippostd:relaxed, hippotranslation:translated, skipversiondemo:basedocument
+  orderable
+
 [skipversiondemo:eventsdocument] > hippostd:relaxed, hippotranslation:translated, skipversiondemo:basedocument
   orderable
 
 [skipversiondemo:newsdocument] > hippostd:relaxed, hippotranslation:translated, skipversiondemo:basedocument
   orderable
+
+[skipversiondemo:skipversioning]
+  mixin
 
