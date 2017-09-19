@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/scxmlregistry/hippo:moduleconfig/hipposcxml:definitions/documentworkflow/version:
+      hipposcxml:classname: org.example.skip.version.demo.cms.workflow.action.SkippableVersionVariantAction
