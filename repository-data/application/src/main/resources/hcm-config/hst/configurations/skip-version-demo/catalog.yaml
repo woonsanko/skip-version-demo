@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/skipversiondemo/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /skipversiondemo-catalog:
+        jcr:primaryType: hst:containeritempackage

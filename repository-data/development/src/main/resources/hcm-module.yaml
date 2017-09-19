@@ -1,0 +1,7 @@
+group: 
+  name: skip-version-demo
+  after: hippo-cms
+project: skip-version-demo
+module: 
+  name: skip-version-demo-repository-data-development
+  after: skip-version-demo-repository-data-application
