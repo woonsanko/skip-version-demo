@@ -33,3 +33,16 @@ by adding a mixin type and customizing ```VersionVariantAction``` SCXML action c
 
 - You can also add a new Product document. Try to edit and publish it, but it still doesn't create a version at all as expected.
 
+## Summary
+
+If you want to apply this solution in your own project, you should do the following:
+
+- Define a custom mixin type, on which mixin type you can skip versioning,  in your project's CND file like the following example:
+```
+[skipversiondemo:skipversioning]
+  mixin
+```
+- Add a custom version action class like the example, [SkippableVersionVariantAction.java](cms/src/main/java/org/example/skip/version/demo/cms/workflow/action/SkippableVersionVariantAction.java) in your ```cms``` project.
+- Configure or bootstrap to replace the default custom version action class name with your classname in the repository. The configuration property location is ```/hippo:configuration/hippo:modules/scxmlregistry/hippo:moduleconfig/hipposcxml:definitions/documentworkflow/version/@hipposcxml:classname```
+- Add the custom mixin type to the specific document type's prototype node, so that it won't create versions for newly created documents of that specific document type.
+- Also, add the custom mixin type to the 'unpublished' (or 'preview) variant nodes of any existing documents, so that it won't create versions when you update and publish the documents.
